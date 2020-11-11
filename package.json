@@ -1,0 +1,25 @@
+{
+  "name": "testflight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "source .env && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishnmu/testflight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishnmu/testflight/issues"
+  },
+  "homepage": "https://github.com/ishnmu/testflight#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "puppeteer-core": "^5.4.1"
+  }
+}
